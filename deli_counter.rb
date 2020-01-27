@@ -1,5 +1,5 @@
 # Write your code here.
-# require 'pry'
+require 'pry'
 def line(kats_deli)
 array= []
 status = "The line is currently: "
@@ -11,7 +11,7 @@ elsif kats_deli.each.with_index do |name, index|
  end 
  return "#{status} #{array.join}"
 end
-
+binding.pry 
 
 
 def take_a_number(kats_deli, name)
