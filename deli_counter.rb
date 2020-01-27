@@ -12,7 +12,7 @@ kats_deli.each do |name|
   customer += 1 
  end
  end 
- puta "The line is currently: #{wait_list.join}"
+ puts "The line is currently: #{wait_list.join}"
 end
 #binding.pry 
 
