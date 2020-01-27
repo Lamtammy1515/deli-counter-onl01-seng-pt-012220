@@ -5,11 +5,13 @@ wait_list = []
 
 if kats_deli.length == 0 
   puts "The line is currently empty."
-elsif kats_deli.each.with_index do |name, index| 
- wait_list << "#{index +1}." "#{name}"
+elsif 
+customer = 1 
+kats_deli.each do |name|
+  wait_list << "The line is currently: #{customer}. #{name}"
  end
  end 
- return "#{status} #{array.join}"
+ return "#{wait_list.join}"
 end
 binding.pry 
 
