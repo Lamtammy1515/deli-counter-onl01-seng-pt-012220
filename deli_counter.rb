@@ -8,11 +8,11 @@ if kats_deli.length == 0
 elsif 
 customer = 1 
 kats_deli.each do |name|
-  wait_list << "The line is currently: #{customer}. #{name}"
+  wait_list << "#{customer}. #{name}"
   customer += 1 
  end
  end 
- return "#{wait_list.join}"
+ puta "The line is currently: #{wait_list.join}"
 end
 #binding.pry 
 
