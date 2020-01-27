@@ -1,5 +1,5 @@
 # Write your code here.
-require 'pry'
+#require 'pry'
 def line(kats_deli)
 wait_list = []
 
@@ -13,7 +13,7 @@ kats_deli.each do |name|
  end 
  return "#{wait_list.join}"
 end
-binding.pry 
+#binding.pry 
 
 
 def take_a_number(kats_deli, name)
