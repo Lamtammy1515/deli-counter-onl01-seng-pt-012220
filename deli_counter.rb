@@ -1,12 +1,12 @@
 # Write your code here.
 # require 'pry'
 def line(kats_deli)
-  
+array= []
 status = "The line is currently: "
 kats_deli.each.with_index do |name, index| 
- status << "#{index +1}." "#{name}"
+ array << "#{index +1}." "#{name}"
  end 
- return status
+ return "#{status} #{array.join}"
 end
 
 
