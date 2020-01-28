@@ -18,6 +18,7 @@ end
 
 
 def take_a_number(kats_deli, name)
- 
+ kats_deli << name 
+ puts " "
   
 end 
