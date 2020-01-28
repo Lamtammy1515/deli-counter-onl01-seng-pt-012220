@@ -24,6 +24,11 @@ end
 
 def now_serving
   if kats_deli == 0 
+  puts "There is nobody waiting to be served!"
+else 
   puts "Currently serving #{kats_deli.first}."
+  kats_deli.shift
+end 
+end 
   
 end 
