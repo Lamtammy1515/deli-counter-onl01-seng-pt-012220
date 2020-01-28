@@ -23,7 +23,7 @@ def take_a_number(kats_deli, name)
 end 
 
 def now_serving
-  
+  if kats_deli == 0 
   puts "Currently serving #{kats_deli.first}."
   
 end 
