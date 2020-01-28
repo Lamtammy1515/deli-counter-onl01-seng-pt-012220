@@ -22,7 +22,7 @@ def take_a_number(kats_deli, name)
  puts "Welcome, #{name}. You are number #{kats_deli.size} in line."
 end 
 
-def now_serving
+def now_serving(kats_deli)
   if kats_deli == 0 
   puts "There is nobody waiting to be served!"
 else 
