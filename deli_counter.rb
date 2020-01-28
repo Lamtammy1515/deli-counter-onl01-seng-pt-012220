@@ -8,7 +8,7 @@ if kats_deli.length == 0
 elsif 
 customer = 1 
 kats_deli.each do |name|
-  wait_list << "#{customer}. #{name}"
+  wait_list << "#{customer}. #{name} "
   customer += 1 
  end
  puts "The line is currently: #{wait_list.join}"
