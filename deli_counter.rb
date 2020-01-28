@@ -23,7 +23,7 @@ def take_a_number(kats_deli, name)
 end 
 
 def now_serving(kats_deli)
-  if kats_deli.empty? 
+  if kats_deli == 0 
   puts "There is nobody waiting to be served!"
 else 
   puts "Currently serving #{kats_deli.first}."
@@ -31,4 +31,3 @@ else
 end 
 end 
   
-end 
